@@ -23,6 +23,12 @@ function draw()
   if (keyDown("s")) {
     box.y+=5; 
  }
+ if(keyDown("a")){
+   box.x-=5;
+ }
+  if(keyDown("d")){
+    box.x+=5;
+  }
   drawSprites();
 }
 
